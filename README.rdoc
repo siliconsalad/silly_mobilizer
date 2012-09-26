@@ -1,3 +1,29 @@
 = SillyMobilizer
 
-Easily manage mobile devices on your Roby on Rails application.
+Easily manage mobile devices on your Ruby on Rails application.
+
+== Installation
+
+Add the gem to your Gemfile
+
+  gem 'silly_mobilizer', git: 'git@github.com:siliconsalad/silly_mobilizer.git',  branch: 'develop'
+
+Run the installer
+
+  rails g silly_mobilizer:install
+
+If you want to enable the ability to force desktop version on mobile devices, create the following route
+
+  resource :device_type_selection, only: [:create, :destroy], controller: :device_type_selection
+
+Finally to enable Silly Mobilizer add the following to your ApplicationController
+
+  include SillyMobilizer::MobileRequestsHandler
+
+== Usage
+
+Whenever you want a view in your application to be rendered in mobile version, create it with mobile extension.
+
+  For example : index.mobile.erb
+
+If the mobile version doesn't exist it automatically falls back to html version.
