@@ -1,0 +1,130 @@
+user_agents:
+  # MOBILE: Android
+  android:
+    :string: "Android SDK 1.5r3: Mozilla/5.0 (Linux; U; Android 1.5; de-; sdk Build/CUPCAKE) AppleWebkit/528.5+ (KHTML like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+    :type:   :mobile
+
+  # MOBILE: Blackberry
+  blackberry:
+    :string: "BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103"
+    :type:   :mobile
+
+  # DESKTOP: Google Chrome
+  chrome:
+    :string: "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/533.4 (KHTML like Gecko) Chrome/5.0.375.99 Safari/533.4"
+    :type:   :desktop
+
+  # DESKTOP: CoreMedia
+  coremedia:
+    :string: "Apple Mac OS X v10.6.4 CoreMedia v1.0.0.10F569"
+    :type:   :desktop
+
+  # DESKTOP: Mozilla FireFox
+  firefox:
+    :string: "Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.0.2) Gecko/20121223 Ubuntu/9.25 (jaunty) Firefox/3.8"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 6
+  ie6:
+    :string: "Mozilla/5.0 (Windows; U; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 7
+  ie7:
+    :string: "Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 8
+  ie8:
+    :string: "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.2; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 8 compatibility
+  ie8_compat:
+    :string: "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; Media Center PC 5.0; .NET CLR 3.5.21022)"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 9
+  ie9:
+    :string: "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"
+    :type:   :desktop
+
+  # DESKTOP: Microsoft Internet Explorer 9 compatibility
+  ie9_compat:
+    :string: "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0)"
+    :type:   :desktop
+
+  # MOBILE: Apple iPad
+  ipad:
+    :string: "Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10"
+    :type:   :mobile
+
+  # MOBILE: Apple iPhone
+  iphone:
+    :string: "Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/420.1 (KHTML like Gecko) Version/3.0 Mobile/1A542a Safari/419.3"
+    :type:   :mobile
+
+  # MOBILE: Apple iPod
+  ipod:
+    :string: "Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML like Gecko) Version/3.0 Mobile/3A100a Safari/419.3"
+    :type:   :mobile
+
+  # MOBILE: Amazon Kindle
+  kindle:
+    :string: "Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML like Gecko Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600×800; rotate)"
+    :type:   :mobile
+
+  # MOBILE: Amazon Kindle Fire
+  kindle_fire:
+    :string: "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Kindle Fire Build/GINGERBREAD) AppleWebKit/533.1 (KHTML like Gecko) Version/4.0 Mobile Safari/533.1"
+    :type:   :mobile
+
+  # MOBILE: Google Nexus 7
+  nexus_tablet:
+    :string: "Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML like Gecko) Chrome/18.0.1025.166 Safari/535.19"
+    :type:   :mobile
+
+  # DESKTOP: Opera
+  opera:
+    :string: "Opera/9.80 (Macintosh; Intel Mac OS X 10.7.4; U; en) Presto/2.10.229 Version/11.64"
+    :type:   :desktop
+
+  # MOBILE: Opera Mini
+  opera_mini:
+    :string: "Opera/9.80 (Android; Opera Mini/7.029952/28.2359;u; fr) Presto/2.8.119 Version/11.10"
+    :type:   :mobile
+
+  # MOBILE: Opera Mobile
+  opera_mobi:
+    :string: "Opera/9.8 (Android 2.3.5; Linux; Opera Mobi/ADR-1205181138; U; en) Presto/2.10.254 Version/12.00"
+    :type:   :mobile
+
+  # MOBILE: Sony PSP
+  psp:
+    :string: "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"
+    :type:   :mobile
+
+  # DESKTOP: Apple QuickTime
+  quicktime:
+    :string: "QuickTime/7.6.8 (qtver=7.6.8;os=Windows NT 5.1Service Pack 3)"
+    :type:   :desktop
+
+  # DESKTOP: Apple Safari
+  safari:
+    :string: "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-us) AppleWebKit/533.17.8 (KHTML like Gecko) Version/5.0.1 Safari/533.17.8"
+    :type:   :desktop
+
+  # MOBILE: Tabloid
+  tabloid:
+    :string: "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/534.13 (KHTML like Gecko) Version/4.0 Safari/534.13"
+    :type:   :mobile
+
+  # MOBILE: Microsoft Windows mobile
+  windows_phone:
+    :string: "Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; DELL; Venue Pro)"
+    :type:   :mobile
+
+  # MOBILE: Xoom
+  xoom:
+    :string: "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/534.13 (KHTML like Gecko) Version/4.0 Safari/534.13"
+    :type:   :mobile
