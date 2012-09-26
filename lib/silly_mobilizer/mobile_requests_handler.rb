@@ -1,11 +1,11 @@
-module SiliconMobilizer
+module SillyMobilizer
   module MobileRequestsHandler
     extend ActiveSupport::Concern
 
     included do
       before_filter :handle_mobile
 
-      append_view_path ::SiliconMobilizer::FallbackResolver.new("app/views", mobile: :html)
+      append_view_path ::SillyMobilizer::FallbackResolver.new("app/views", mobile: :html)
 
       respond_to :html, :mobile
     end

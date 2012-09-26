@@ -3,9 +3,9 @@ require 'spec_helper'
 
 AGENTS = YAML.load_file(File.dirname(__FILE__) + '/../../support/user_agents.yml')['user_agents']
 
-describe SiliconMobilizer::UserAgentParser do
+describe SillyMobilizer::UserAgentParser do
 
-  let(:parser) { SiliconMobilizer::UserAgentParser.new }
+  let(:parser) { SillyMobilizer::UserAgentParser.new }
 
   describe '#type' do
     AGENTS.each do |key, data|

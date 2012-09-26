@@ -1,4 +1,4 @@
-module SiliconMobilizer
+module SillyMobilizer
   class FallbackResolver < ::ActionView::FileSystemResolver
     attr_reader :format_fallbacks
 

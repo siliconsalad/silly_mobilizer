@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :silicon_mobilizer do
+# task :silly_mobilizer do
 #   # Task goes here
 # end

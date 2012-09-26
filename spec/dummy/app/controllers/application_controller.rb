@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::Base
-  include SiliconMobilizer::MobileRequestsHandler
+  include SillyMobilizer::MobileRequestsHandler
   protect_from_forgery
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    silicon_mobilizer (0.0.1)
+    silly_mobilizer (0.0.1)
       rails (~> 3.2.8)
 
 GEM
@@ -151,5 +151,5 @@ DEPENDENCIES
   guard-spork
   jquery-rails
   rspec-rails
-  silicon_mobilizer!
+  silly_mobilizer!
   sqlite3

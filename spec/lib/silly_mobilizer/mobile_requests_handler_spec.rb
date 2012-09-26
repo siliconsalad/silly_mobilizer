@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe SiliconMobilizer::MobileRequestsHandler do
+describe SillyMobilizer::MobileRequestsHandler do
   class MockController < ActionController::Base
-    include SiliconMobilizer::MobileRequestsHandler
+    include SillyMobilizer::MobileRequestsHandler
   end
 
   subject { MockController.new }

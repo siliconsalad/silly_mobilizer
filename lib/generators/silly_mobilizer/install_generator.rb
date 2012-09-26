@@ -1,5 +1,5 @@
 require 'rails/generators'
-module SiliconMobilizer
+module SillyMobilizer
   class InstallGenerator < Rails::Generators::Base
     desc "Installs the required files for the mobilizer to work with your Rails application"
 
@@ -8,7 +8,7 @@ module SiliconMobilizer
     end
 
     def copy_initializer_file
-      copy_file "mobile_identifiers.yml", "config/silicon_mobilizer/mobile_identifiers.yml"
+      copy_file "mobile_identifiers.yml", "config/silly_mobilizer/mobile_identifiers.yml"
     end
 
   end

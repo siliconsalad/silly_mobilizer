@@ -1,15 +1,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "silicon_mobilizer/version"
+require "silly_mobilizer/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "silicon_mobilizer"
-  s.version     = SiliconMobilizer::VERSION
+  s.name        = "silly_mobilizer"
+  s.version     = SillyMobilizer::VERSION
   s.authors     = ["Yann IRBAH"]
-  s.email       = ["yirbah@siliconsalad.com"]
-  s.homepage    = "http://www.siliconsalad.com"
+  s.email       = ["yirbah@sillysalad.com"]
+  s.homepage    = "http://www.sillysalad.com"
   s.summary     = "Mobile devices detection for Rails apps"
   s.description = "Takes the pain of managing mobile devices on your application away from you."
 
