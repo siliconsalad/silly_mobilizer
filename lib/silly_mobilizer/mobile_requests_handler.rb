@@ -3,14 +3,17 @@ module SillyMobilizer
     extend ActiveSupport::Concern
 
     included do
-      before_filter :handle_mobile
-
       append_view_path ::SillyMobilizer::FallbackResolver.new("app/views", mobile: :html)
-
-      respond_to :html, :mobile
+      before_filter :handle_mobile
+      helper_method :current_device_type
+      respond_to    :html, :mobile
     end
 
   private
+
+    def current_device_type
+      env['BROWSER_TYPE']
+    end
 
     def handle_mobile
       return if session[:device_type_override] == :desktop || request.xhr?
