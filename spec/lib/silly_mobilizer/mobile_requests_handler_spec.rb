@@ -42,17 +42,6 @@ describe SillyMobilizer::MobileRequestsHandler do
         @format.should == :mobile
       end
 
-      context "request is XHR" do
-        before(:each) do
-          @request.stub(:xhr?).and_return(true)
-        end
-
-        it "should not modify request.format" do
-          subject.send(:handle_mobile)
-          @format.should == :old_format
-        end
-      end
-
     end
 
   end
