@@ -16,7 +16,7 @@ module SillyMobilizer
     end
 
     def handle_mobile
-      return if session[:device_type_override] == :desktop || request.xhr?
+      return if session[:device_type_override] == :desktop
       if mobile_request?
         request.format = :mobile
       end
