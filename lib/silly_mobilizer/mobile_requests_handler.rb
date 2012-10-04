@@ -3,10 +3,10 @@ module SillyMobilizer
     extend ActiveSupport::Concern
 
     included do
-      append_view_path ::SillyMobilizer::FallbackResolver.new("app/views", mobile: :html)
+      append_view_path ::SillyMobilizer::FallbackResolver.new("app/views", { mobile: :json, mobile: :html })
       before_filter :handle_mobile
       helper_method :current_device_type
-      respond_to    :html, :mobile
+      respond_to    :json, :html, :mobile
     end
 
   private
