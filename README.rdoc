@@ -27,3 +27,11 @@ Whenever you want a view in your application to be rendered in mobile version, c
   For example : index.mobile.erb
 
 If the mobile version doesn't exist it automatically falls back to html version.
+
+== Notes
+
+=== Devise
+
+If you're using Devise for authentication you might have to add this to your devise initializer :
+
+  config.navigational_formats = [:html, :mobile]
