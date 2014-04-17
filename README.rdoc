@@ -27,3 +27,7 @@ Whenever you want a view in your application to be rendered in mobile version, c
   For example : index.mobile.erb
 
 If the mobile version doesn't exist it automatically falls back to html version.
+
+== Workflow
+
+If you want to test your work in a desktop simply add the browser of your choice in `mobile_identifiers.yml`. You can try with `- firefox`
